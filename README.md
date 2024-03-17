@@ -1,4 +1,4 @@
-# Elernine - Web Development Company 🚀
+# Elernine - Web Development Practice 🚀
 
 Welcome to Elernine's web application! We are a web development company dedicated to turning your ideas into reality.
 
@@ -24,7 +24,6 @@ Elernine is a web development company based in Buenos Aires, Argentina. We speci
 - **HTML**: Markup language for structuring the content of our web pages.
 - **CSS**: Styling language for designing the layout and appearance of our website.
 - **Bootstrap**: Front-end framework for creating responsive and mobile-first websites.
-- **JavaScript**: Programming language for adding interactivity and dynamic features to our web pages.
 
 ## Contact 📧
 
@@ -33,7 +32,3 @@ If you have any questions or would like to inquire about our services, feel free
 - **Email**: info@elernine.com
 - **Phone**: +54 9 11 2345-6789
 - **Social Media**: [LinkedIn](https://www.linkedin.com/in/lautaroreche/) | [GitHub](https://github.com/lautaroreche) | [Instagram](https://www.instagram.com/lautaroreche/)
-
-## License 📜
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/*variables*/
+$color-principal: rgb(138, 43, 226);
+$color-secundario: rgb(138, 90, 226);
+
+/*Header*/
+.navbar{
+    background-color: $color-principal;
+    .elernine{
+        width: 75px;
+        height: 55px;
+    }
+    .elernine:hover{
+        transform: scale(1.03);
+        transition: 0.2s;
+    }
+}
+
+/*Primera Sección*/
+.primeraSeccion{
+    background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0.7)), url(../imagenes/fondo.jpeg);
+    background-size: cover;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .tituloPrimeraSeccion{
+        color: white;
+        margin-bottom: 1rem;
+    }
+    .botonVioleta{
+        background: $color-principal;
+        border-color: $color-principal;
+    }
+    .botonVioleta:hover{
+        background: $color-secundario;
+        border-color: $color-secundario;
+        transition: 0.5s;
+    }
+}
+
+/*Segunda sección*/
+.segundaSeccion{
+    background-color: rgb(42, 42, 42);
+    padding: 2%;
+    .tituloSegundaSeccion{
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .card:hover{
+        transform: scale(1.02);
+        transition: 0.5s;
+    }
+    .imagenStaff{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .imagenStaff:hover{
+        transform: scale(1.02);
+        transition: 0.5s;
+    }
+    .nombreStaff{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .nombreStaff, .posicionStaff{
+        color: white;
+        text-decoration: none;
+    }
+    .hipervinculoRedes{
+        text-decoration: none;
+    }
+    .imagenServicio{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .tituloServicio, .parrafoServicio{
+        color: white;
+    }
+    .contenedorServicio{
+        display: inline-block;
+        align-self: center;
+    }
+    .posicion, .paisPosicion, .modalidadPosicion, .tituloPosicion, .tituloModalidadPosicion, .tituloPaisPosicion{
+        color: white;
+    }
+    .posicion:hover, .paisPosicion:hover, .modalidadPosicion:hover{
+        transform: scale(1.01);
+        transition: 0.5s;
+    }
+    .tituloPosicion, .tituloModalidadPosicion, .tituloPaisPosicion{
+        border-bottom: 2px solid white;
+    }
+    .input-group-text{
+        min-width: 90px;
+        background: rgb(100, 100, 100);
+        border-color: rgb(100, 100, 100);;
+        color: white;
+    }
+    .botonVioleta, .botonServicio, .botonFormulario{
+        width: 100%;
+        background: $color-principal;
+        border-color: $color-principal;
+    }
+    .botonVioleta:hover, .botonServicio:hover, .botonFormulario:hover{
+        background: $color-secundario;
+        border-color: $color-secundario;
+        transition: 0.5s;
+    } 
+}
+
+.terceraSeccion{
+    background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0.7)), url(../imagenes/fondo.jpeg);
+    background-position: fixed;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .tituloTerceraSeccion{
+        color: white;
+    }
+    .botonFormulario{
+        max-width: 50%;
+    }
+}
+
+/*Footer*/
+footer{
+    background: rgb(21, 21, 21);
+    color: white;
+    padding: 10px;
+    .elementosDelFooter{
+        display: flex;
+        justify-content: space-between;
+        .redes{
+            height: 25px;
+            padding-right: 5px;
+        }
+        .redes:hover{
+            transform: scale(1.08);
+            transition: 0.5s;
+        }
+    }
+    .elementosDelFooter a{
+        text-decoration: none;
+    }
+}
+
+/*Media query menores a 767px*/
+@media screen and (max-width: 767px){
+    .botonServicio{
+        display: none;
+    }
+    #badgeEspecial{
+        display: none;
+    }
+    .tituloServicio{
+        border-bottom: 3px solid $color-principal;
+    }
+}
+
+/*Media query menores a 576px*/
+@media screen and (max-width: 576px){
+    .ubicacion, .modalidadPosicion, .paisPosicion, .tituloModalidadPosicion, .tituloPaisPosicion, .imagenServicio{
+        display: none;
+    }
+    .botonServicio{
+        display: block;
+    }
+}
+
+/*Media query menores a 350px*/
+@media screen and (max-width: 350px){
+    .redes{
+        display: none;
+    }
+}

@@ -1,0 +1,240 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+/*variables*/
+/*Header*/
+.navbar {
+  background-color: blueviolet;
+}
+
+.navbar .elernine {
+  width: 75px;
+  height: 55px;
+}
+
+.navbar .elernine:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/*Primera Sección*/
+.primeraSeccion {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 25, 25, 0.7)), to(rgba(25, 25, 25, 0.7))), url(../imagenes/fondo.jpeg);
+  background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0.7)), url(../imagenes/fondo.jpeg);
+  background-size: cover;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.primeraSeccion .tituloPrimeraSeccion {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.primeraSeccion .botonVioleta {
+  background: blueviolet;
+  border-color: blueviolet;
+}
+
+.primeraSeccion .botonVioleta:hover {
+  background: #8a5ae2;
+  border-color: #8a5ae2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/*Segunda sección*/
+.segundaSeccion {
+  background-color: #2a2a2a;
+  padding: 2%;
+}
+
+.segundaSeccion .tituloSegundaSeccion {
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.segundaSeccion .card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.segundaSeccion .imagenStaff {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.segundaSeccion .imagenStaff:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.segundaSeccion .nombreStaff {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.segundaSeccion .nombreStaff, .segundaSeccion .posicionStaff {
+  color: white;
+  text-decoration: none;
+}
+
+.segundaSeccion .hipervinculoRedes {
+  text-decoration: none;
+}
+
+.segundaSeccion .imagenServicio {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.segundaSeccion .tituloServicio, .segundaSeccion .parrafoServicio {
+  color: white;
+}
+
+.segundaSeccion .contenedorServicio {
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.segundaSeccion .posicion, .segundaSeccion .paisPosicion, .segundaSeccion .modalidadPosicion, .segundaSeccion .tituloPosicion, .segundaSeccion .tituloModalidadPosicion, .segundaSeccion .tituloPaisPosicion {
+  color: white;
+}
+
+.segundaSeccion .posicion:hover, .segundaSeccion .paisPosicion:hover, .segundaSeccion .modalidadPosicion:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.segundaSeccion .tituloPosicion, .segundaSeccion .tituloModalidadPosicion, .segundaSeccion .tituloPaisPosicion {
+  border-bottom: 2px solid white;
+}
+
+.segundaSeccion .input-group-text {
+  min-width: 90px;
+  background: #646464;
+  border-color: #646464;
+  color: white;
+}
+
+.segundaSeccion .botonVioleta, .segundaSeccion .botonServicio, .segundaSeccion .botonFormulario {
+  width: 100%;
+  background: blueviolet;
+  border-color: blueviolet;
+}
+
+.segundaSeccion .botonVioleta:hover, .segundaSeccion .botonServicio:hover, .segundaSeccion .botonFormulario:hover {
+  background: #8a5ae2;
+  border-color: #8a5ae2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.terceraSeccion {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 25, 25, 0.7)), to(rgba(25, 25, 25, 0.7))), url(../imagenes/fondo.jpeg);
+  background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0.7)), url(../imagenes/fondo.jpeg);
+  background-position: fixed;
+  height: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.terceraSeccion .tituloTerceraSeccion {
+  color: white;
+}
+
+.terceraSeccion .botonFormulario {
+  max-width: 50%;
+}
+
+/*Footer*/
+footer {
+  background: #151515;
+  color: white;
+  padding: 10px;
+}
+
+footer .elementosDelFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .elementosDelFooter .redes {
+  height: 25px;
+  padding-right: 5px;
+}
+
+footer .elementosDelFooter .redes:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .elementosDelFooter a {
+  text-decoration: none;
+}
+
+/*Media query menores a 767px*/
+@media screen and (max-width: 767px) {
+  .botonServicio {
+    display: none;
+  }
+  #badgeEspecial {
+    display: none;
+  }
+  .tituloServicio {
+    border-bottom: 3px solid blueviolet;
+  }
+}
+
+/*Media query menores a 576px*/
+@media screen and (max-width: 576px) {
+  .ubicacion, .modalidadPosicion, .paisPosicion, .tituloModalidadPosicion, .tituloPaisPosicion, .imagenServicio {
+    display: none;
+  }
+  .botonServicio {
+    display: block;
+  }
+}
+
+/*Media query menores a 350px*/
+@media screen and (max-width: 350px) {
+  .redes {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

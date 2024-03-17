@@ -29,6 +29,5 @@ Elernine is a web development company based in Buenos Aires, Argentina. We speci
 
 If you have any questions or would like to inquire about our services, feel free to contact us:
 
-- **Email**: info@elernine.com
-- **Phone**: +54 9 11 2345-6789
+- **Email**: lautaroreche1@gmail.com
 - **Social Media**: [LinkedIn](https://www.linkedin.com/in/lautaroreche/) | [GitHub](https://github.com/lautaroreche) | [Instagram](https://www.instagram.com/lautaroreche/)

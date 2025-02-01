@@ -1,7 +1,5 @@
 # Elernine - Web Development Practice 🚀
 
-Welcome to Elernine's web application! We are a web development company dedicated to turning your ideas into reality.
-
 ## Description ℹ️
 
 Elernine is a web development company based in Buenos Aires, Argentina. We specialize in creating stunning websites and providing maintenance services to ensure your online presence is always up to date.
@@ -30,4 +28,4 @@ Elernine is a web development company based in Buenos Aires, Argentina. We speci
 If you have any questions or would like to inquire about our services, feel free to contact us:
 
 - **Email**: lautaroreche1@gmail.com
-- **Social Media**: [LinkedIn](https://www.linkedin.com/in/lautaroreche/) | [GitHub](https://github.com/lautaroreche) | [Instagram](https://www.instagram.com/lautaroreche/)
+- **Social Media**: [LinkedIn](https://www.linkedin.com/in/lautaroreche/)
